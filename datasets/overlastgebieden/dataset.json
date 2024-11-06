@@ -1,0 +1,141 @@
+{
+  "id": "overlastgebieden",
+  "type": "dataset",
+  "auth": "OPENBAAR",
+  "authorizationGrantor": "n.v.t.",
+  "theme": [
+    "openbare orde en veiligheid"
+  ],
+  "homepage": "https://data.amsterdam.nl",
+  "owner": "Gemeente Amsterdam, Openbare Orde en Veiligheid Amsterdam",
+  "dateModified": "2022-02-23T00:00:00+01:00",
+  "spatialDescription": "Gemeente Amsterdam",
+  "version": "1.0.0",
+  "default_version": "1.0.0",
+  "title": "Overlastgebieden gemeente Amsterdam",
+  "language": "nl",
+  "dateCreated": "2020-02-09T00:00:00+01:00",
+  "license": "Creative Commons, Naamsvermelding",
+  "hasBeginning": "2020-02-09T00:00:00+01:00",
+  "accrualPeriodicity": "dagelijks",
+  "creator": "bronhouder onbekend",
+  "publisher": {
+    "$ref": "publishers/DGEN"
+  },
+  "description": "Overlastgebieden Amsterdam.",
+  "status": "beschikbaar",
+  "keywords": [
+    "openbare orde en veiligheid",
+    "overlastgebieden",
+    "verboden"
+  ],
+  "crs": "EPSG:28992",
+  "objective": "Publiceren van de locaties voor verboden activiteiten of gedragingen in de openbare ruimte.",
+  "tables": [
+    {
+      "id": "alcoholverkoopverbod",
+      "$ref": "alcoholverkoopverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "alcoholverkoopverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "sluitingstijdenkernwallen",
+      "$ref": "sluitingstijdenkernwallen/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "sluitingstijdenkernwallen/v1.0.0"
+      }
+    },
+    {
+      "id": "alcoholverbod",
+      "$ref": "alcoholverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "alcoholverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "algemeenoverlast",
+      "$ref": "algemeenoverlast/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "algemeenoverlast/v1.0.0"
+      }
+    },
+    {
+      "id": "barbecueverbod",
+      "$ref": "barbecueverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "barbecueverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "cameratoezicht",
+      "$ref": "cameratoezicht/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "cameratoezicht/v1.0.0"
+      }
+    },
+    {
+      "id": "dealeroverlast",
+      "$ref": "dealeroverlast/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "dealeroverlast/v1.0.0"
+      }
+    },
+    {
+      "id": "groepsfietsverbod",
+      "$ref": "groepsfietsverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "groepsfietsverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "messenverbod",
+      "$ref": "messenverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "messenverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "rondleidingverbod",
+      "$ref": "rondleidingverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "rondleidingverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "straatartiestverbod",
+      "$ref": "straatartiestverbod/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "straatartiestverbod/v1.0.0"
+      }
+    },
+    {
+      "id": "taxistandplaats",
+      "$ref": "taxistandplaats/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "taxistandplaats/v1.0.0"
+      }
+    },
+    {
+      "id": "uitgaansoverlast",
+      "$ref": "uitgaansoverlast/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "uitgaansoverlast/v1.0.0"
+      }
+    },
+    {
+      "id": "vuurwerkvrij",
+      "$ref": "vuurwerkvrij/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "vuurwerkvrij/v1.0.0"
+      }
+    },
+    {
+      "id": "blowverbodsgebied",
+      "$ref": "blowverbodsgebied/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "blowverbodsgebied/v1.0.0"
+      }
+    }
+  ]
+}

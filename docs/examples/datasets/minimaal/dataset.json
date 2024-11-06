@@ -1,0 +1,19 @@
+{
+  "id": "bekendeAmsterdammers",
+  "type": "dataset",
+  "title": "Bekende Amsterdammers",
+  "description": "Een collectie van bekende Amsterdammers.\n (Een voorbeeld dataset)",
+  "version": "1.0.0",
+  "status": "beschikbaar",
+  "publisher": "Team Bekende Amsterdammers",
+  "creator": "myBronhouder",
+  "auth": "OPENBAAR",
+  "authorizationGrantor": "tba@amsterdam.nl",
+  "owner": "Gemeente Amsterdam",
+  "tables": [
+    {
+      "$ref": "personen/v1.0.0",
+      "id": "personen"
+    }
+  ]
+}

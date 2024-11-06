@@ -1,0 +1,10 @@
+{
+  "name": "Werk, Participatie en Inkomen",
+  "id": "WPI",
+  "shortname": "wpi",
+  "tags": {
+    "team": "wpi",
+    "costcenter": "76100052.4330"
+  },
+  "type": "publisher"
+}

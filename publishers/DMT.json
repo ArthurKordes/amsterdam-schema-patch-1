@@ -1,0 +1,10 @@
+{
+    "name": "Data Management Team",
+    "id": "DMT",
+    "shortname": "dmt",
+    "tags": {
+      "team": "data management",
+      "costcenter": "76400167"
+    },
+    "type": "publisher"
+}

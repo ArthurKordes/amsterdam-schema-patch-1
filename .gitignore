@@ -1,0 +1,44 @@
+__pycache__/
+*.pyc
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+*.mo
+*.pot
+.python-version
+
+# Virtualenv
+.env
+.denv
+.envrc
+env/
+denv/
+.venv
+.dvenv
+venv/
+dvenv/
+ENV/
+
+# IDE/OS
+.mypy_cache/
+.idea/
+*.iml
+*.swp
+.DS_Store
+
+/scratch
+datasets/index.json

@@ -1,0 +1,32 @@
+{
+    "type": "dataset",
+    "id": "uitstootvrijeZones",
+    "title": "uitstootvrije zones",
+    "status": "beschikbaar",
+    "description": "Uitstootvrije zones die gelden vanaf 1 januari 2025 voor verkeer in Amsterdam",
+    "version": "1.0.0",
+    "owner": "Gemeente Amsterdam",
+    "publisher": {
+      "$ref": "publishers/MOBI"
+    },
+    "crs": "EPSG:28992",
+    "creator": "Team Uitstootvrije Mobiliteit",
+    "auth": "OPENBAAR",
+    "authorizationGrantor": "teammobiliteit.data@amsterdam.nl",
+    "tables": [
+      {
+        "id": "bromEnSnorfiets",
+        "$ref": "brom_en_snorfiets/v1.0.0",
+        "activeVersions": {
+          "1.0.0": "brom_en_snorfiets/v1.0.0"
+        }
+      },
+      {
+        "id": "vrachtEnBestelauto",
+        "$ref": "vracht_en_bestelauto/v1.0.0",
+        "activeVersions": {
+          "1.0.0": "vracht_en_bestelauto/v1.0.0"
+        }
+      }
+    ]
+  }

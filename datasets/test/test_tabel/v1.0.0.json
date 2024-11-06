@@ -1,0 +1,29 @@
+{
+  "id": "test_tabel",
+  "title": "testTabel",
+  "type": "table",
+  "version": "1.0.0",
+  "description": "Test tabel voor de sync met datacontracten.",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["schema", "id"],
+    "display": "test",
+    "properties": {
+      "schema": {
+        "$ref": "https://schemas.data.amsterdam.nl/schema@v1.1.1#/definitions/schema"
+      },
+      "id": {
+        "type": "integer",
+        "description": "Unieke aanduiding.",
+        "title": "ID"
+      },
+      "test_kolom_1": {
+        "type": "string",
+        "description": "123",
+        "title": "Test Kolom"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "dataset",
+  "id": "test",
+  "title": "test",
+  "description": "Test schema voor DMT.",
+  "license": "public",
+  "status": "beschikbaar",
+  "owner": "Gemeente Amsterdam, Data Management Team",
+  "auth": "OPENBAAR",
+  "authorizationGrantor": "DMT",
+  "creator": "DMT",
+  "publisher": {
+    "$ref": "publishers/DMT"
+  },
+  "theme": ["Test"],
+  "keywords": ["Openbaar", "Testen"],
+  "tables": [
+    {
+      "id": "testTabel",
+      "$ref": "test_tabel/v1.0.0",
+      "activeVersions": {
+        "1.0.0": "test_tabel/v1.0.0"
+      }
+    }
+  ]
+}

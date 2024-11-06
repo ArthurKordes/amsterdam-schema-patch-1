@@ -1,0 +1,25 @@
+{
+  "type": "dataset",
+  "id": "nap",
+  "title": "NAP",
+  "status": "beschikbaar",
+  "version": "1.0.0",
+  "crs": "EPSG:28992",
+  "owner": "Basisinformatie",
+  "creator": "Kadaster en Rijkswaterstaat",
+  "publisher": {
+    "$ref": "/publishers/BENK"
+  },
+  "auth": "OPENBAAR",
+  "authorizationGrantor": "gebruik.basisinformatie@amsterdam.nl",
+  "tables": [
+    {
+      "id": "peilmerken",
+      "$ref": "peilmerken/v1.0.1",
+      "activeVersions": {
+        "1.0.1": "peilmerken/v1.0.1",
+        "2.1.1": "peilmerken/v2.1.1"
+      }
+    }
+  ]
+}

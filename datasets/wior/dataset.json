@@ -1,0 +1,29 @@
+{
+  "type": "dataset",
+  "id": "wior",
+  "title": "Werken in de openbare ruimte",
+  "description": "Contextuele informatie over uitvoering en aanvragen werken in de openbare ruimte",
+  "license": "public",
+  "status": "beschikbaar",
+  "version": "2.0.0",
+  "owner": "Gemeente Amsterdam",
+  "auth": "OPENBAAR",
+  "authorizationGrantor": "OIS",
+  "creator": "bronhouder onbekend",
+  "publisher": {
+    "$ref": "publishers/SOEB"
+  },
+  "keywords": [
+    "wior"
+  ],
+  "crs": "EPSG:28992",
+  "tables": [
+    {
+      "id": "wior",
+      "$ref": "wior/v2.0.0",
+      "activeVersions": {
+        "2.0.0": "wior/v2.0.0"
+      }
+    }
+  ]
+}
